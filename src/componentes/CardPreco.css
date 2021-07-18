@@ -1,0 +1,74 @@
+.check-color{
+    color: lightgray;
+}
+.lista-services{
+    text-align: justify;
+    margin:  40px auto;
+    display: grid;
+    grid-template-rows:1fr 1fr 1fr 1fr ;
+    justify-content: center;
+    list-style: none;
+}
+.lista-services i{
+    margin-right: 7px;
+}
+.lista-services span{
+    margin-top: 15px;
+}
+.card-preco-borda{
+    border: 5px dashed #78C2FF;
+}
+.card-preco{
+    border-bottom-right-radius:100px ;
+    border-top-left-radius:100px ;
+    font-family: Poppins;
+    background-color: rgba(128, 128, 128, 0.047);
+    margin: 10px;
+    padding-top: 40px;
+}
+.card-preco:hover{
+    box-shadow: 8px 8px 20px 0px rgb(44 44 44 / 15%);
+
+}
+.price h1{
+    font-size: 4rem;
+    font-weight:bolder;
+    color: #303669;
+    margin-top: 20px;
+}
+.price p{
+    font-weight: bold;
+    color: #78C2FF;
+    
+}
+.price h5{
+    
+    color: #fff;
+    padding: 6px 6px;
+    background-color:#78C2FF ;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 110px;
+    margin:10px auto;
+}
+.descricao-preco{
+    font-weight: 900;
+    padding: 0px 50px;
+}
+.contratar{
+     
+    width: 150px;
+    background: #3A88EC;
+    color: #fff;
+    padding: 10px 10px 3px 10px  ;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: 40px auto;
+    cursor: pointer;
+}
+
+.contratar:hover{
+    
+    transition: 0.5s;
+    background-color: #FF3E81;
+}

@@ -1,0 +1,16 @@
+.card-beneficio-img img{
+    width: 40%;
+}
+.card-beneficio-img h3{
+    color: #303669 ;
+    font-size: 1.5rem;
+    margin-top: 16px;
+}
+.card-beneficio p{
+    
+    color: grey;
+}
+.card-beneficio{
+    font-family: Poppins;
+    width: 100%;
+}

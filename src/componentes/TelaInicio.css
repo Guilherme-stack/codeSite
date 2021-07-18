@@ -1,0 +1,99 @@
+ 
+
+@media(min-width:1000px){
+    .tela-inicio{
+        font-family: Poppins;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 100px;
+        width: 100%;
+    }
+    .imagem-inicio img{
+         width: 100%;
+    }
+    .texto-tela-inicio{
+        text-align: justify;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        padding: auto;
+    }
+    .texto-tela-inicio p{
+        font-size: 1.5rem;
+        font-weight: 500;
+        line-height: 1.5;
+        padding-bottom: 10px;
+        padding-right: 40px;
+        color: rgb(84, 83, 83);
+    }
+    .texto-tela-inicio h1{
+        font-weight: bold;
+        font-size: 4rem;
+        line-height: 1;
+        padding-bottom: 25px;
+        width: 80%;
+        color: #303669;
+    }
+    .texto-tela-inicio h3{
+        width: 200px;
+        text-align: center;
+        color: #fff;
+        background-color: #3A88EC;
+        padding: 11px 0px 14px 0px;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        cursor: pointer;
+    }
+    .texto-tela-inicio h3:hover{
+         background-color: #FF3E81;
+    }
+}
+
+@media (max-width:1000px){
+    .tela-inicio{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 100px;
+        width: 100%;
+    }
+    .imagem-inicio img{
+         width: 80%;
+       
+    }
+    .texto-tela-inicio{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        padding: 100px;
+    }
+    .texto-tela-inicio p{
+        font-size: 1.5rem;
+        font-weight: 500;
+        line-height: 1.5;
+        padding-bottom: 10px;
+        color: rgb(84, 83, 83);
+        
+    }
+    .texto-tela-inicio h1{
+        font-weight: 800;
+        font-size: 5rem;
+        line-height: 1;
+        padding-bottom: 25px;
+        color: #303669;
+    }
+    .texto-tela-inicio h3{
+        width: 200px;
+        text-align: center;
+        margin: auto;
+        color: #fff;
+        background-color: #3A88EC;
+        padding: 11px 0px 14px 0px;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        cursor: pointer;
+    }
+    .texto-tela-inicio h3:hover{
+         background-color: #FF3E81;
+    }
+}

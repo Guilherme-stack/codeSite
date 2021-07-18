@@ -1,0 +1,98 @@
+.nav-bar{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    background-color: #fff;
+}
+.nav-bar li{
+    cursor: pointer;
+    list-style: none;
+    font-size: 1.3rem;
+    font-weight: 700;
+    font-family: 'Poppins',sans-serif;
+}
+.nav-bar li:hover{
+    color: #FF3E81;    
+}
+.nav-bar h3:hover{
+    color: white;
+}
+.logo-nav-bar{
+    color: #3A88EC;
+    font-size: 3rem;
+    
+}
+.entrar-nav-bar{
+    color: #fff;
+    background-color: #3A88EC;
+    padding: 11px 15px 3px 15px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.entrar-nav-bar:hover{
+    background: #FF3E81; 
+    color: white;
+}
+.link-click{
+    display: none;
+}
+@media(max-width:1000px){
+    .nav-bar{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        justify-content: space-around;
+        align-items: center;
+        position: fixed;
+        top: 0px;
+        background-color: #fff;
+    }
+    .nav-bar li{
+        margin-top: 5px;
+        cursor: pointer;
+        list-style: none;
+        font-size: 1.3rem;
+        font-weight: 700;
+        font-family: 'Poppins',sans-serif;
+    }
+    .nav-bar li:hover{
+        color: #FF3E81;    
+    }
+    .nav-bar h3:hover{
+        color: white;
+    }
+    .logo-nav-bar{
+        display: block;
+        color: #3A88EC;
+        font-size: 3rem;
+    }
+    .entrar-nav-bar{
+        color: #fff;
+        background-color: #3A88EC;
+        padding: 11px 15px 3px 15px;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    .entrar-nav-bar:hover{
+        background: #FF3E81; 
+        color: white;
+    }
+    .link{
+        display: none;
+
+    }
+    .link-click:hover{
+        color: black;
+    }
+    .link-click{
+        display: block;
+    }
+}
+
+ 

@@ -1,0 +1,101 @@
+ 
+@media(min-width:1000px){
+    .servicos{
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .imagem-servico img{
+        width: 100%;
+    }
+    .text-servicos{
+        padding: 0px 50px;
+        font-family:Poppins;
+        text-align: justify;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .text-servicos h1{
+        font-weight: 800;
+        font-size: 3.3rem;
+        color: #303669;
+    }
+    .text-servicos p{
+        
+        color: gray;
+        font-size: 1.1rem;
+    }
+    .services-box{
+        color: white;
+        margin-top: 10px;
+        width: 80%;
+        padding: 16px 40px 10px 40px;
+        border-bottom-left-radius: 30px;
+        border-top-right-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #3A88EC;
+    }
+    .click-web,.click-desenvolvimento{
+         
+        padding: 10px 120px 10px 0px;
+    }
+    .no-click-web{
+        display: none;
+    }
+    .far,.fas{
+        cursor: pointer;
+    }
+}
+@media(max-width:1000px){
+    .servicos{
+        margin-top: 80px;
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+    .imagem-servico img{
+        width: 100%;
+    }
+    .text-servicos{
+        padding: 0px 50px;
+        font-family:Poppins;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .text-servicos h1{
+        font-weight: 800;
+        font-size: 3.3rem;
+        color: #303669;
+    }
+    .text-servicos p{
+        
+        color: gray;
+        font-size: 1.1rem;
+    }
+    .services-box{
+        color: white;
+        margin-top: 10px;
+        width: 100%;
+        padding: 16px 40px 10px 40px;
+        border-bottom-left-radius: 30px;
+        border-top-right-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #3A88EC;
+    }
+    .click-web,.click-desenvolvimento{
+        margin-top: 10px;
+        padding: 15px 10pxpx 10px 0px;
+    }
+    .no-click-web{
+        display: none;
+    }
+    .far,.fas{
+        cursor: pointer;
+    }
+}

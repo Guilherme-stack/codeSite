@@ -1,0 +1,135 @@
+.foot{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+    padding: 90px 90px;
+    font-family: Poppins;
+    background-color: #303669;
+    color: #fff;
+    margin-top: 50px;
+}
+.logo-footer{
+     
+    display: flex;
+    flex-direction: column;
+     
+    text-align: justify;
+}
+.logo-footer h3{
+    font-weight: bold;
+     
+}
+.sobre-nos-footer{
+    display: flex;
+    flex-direction: column;
+    
+    text-align: justify;
+}
+.sobre-nos-footer h3{
+    font-weight: bold;
+}
+.entre-em-contato{
+    display: flex;
+    flex-direction: column;
+   
+    text-align: justify;
+}
+.entre-em-contato h3{
+    font-weight: bold;
+}
+.entre-em-contato span{
+    margin-top: 9px;
+}
+.redes{
+    display: flex;
+    flex-direction: column;
+     
+    text-align: justify;
+}
+.redes h3{
+    font-weight: bold;
+}
+.icon{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 80%;
+}
+.i:hover{
+    transition: 0.5s;
+    color: #FF3E81;
+    cursor: pointer;
+}
+.pe{
+    text-align: center;
+    background-color: #303669;
+    color: #fff;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+    color: #FF3E81;
+}
+@media (max-width:1000px){
+    .foot{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-gap: 30px;
+        padding: 90px 90px;
+        font-family: Poppins;
+        background-color: #303669;
+        color: #fff;
+        margin-top: 50px;
+    }
+    .logo-footer{
+         
+        display: flex;
+        flex-direction: column;
+         
+        text-align: justify;
+    }
+    .logo-footer h3{
+        font-weight: bold;
+         
+    }
+    .sobre-nos-footer{
+        display: flex;
+        flex-direction: column;
+        
+        text-align: justify;
+    }
+    .sobre-nos-footer h3{
+        font-weight: bold;
+    }
+    .entre-em-contato{
+        display: flex;
+        flex-direction: column;
+       
+        text-align: justify;
+    }
+    .entre-em-contato h3{
+        font-weight: bold;
+    }
+    .entre-em-contato span{
+        margin-top: 9px;
+    }
+    .redes{
+        display: flex;
+        flex-direction: column;
+         
+        text-align: justify;
+    }
+    .redes h3{
+        font-weight: bold;
+    }
+    .icon{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        width: 80%;
+    }
+    .i:hover{
+        transition: 0.5s;
+        color: #FF3E81;
+        cursor: pointer;
+    }
+    .pe{
+        text-align: center;
+    }
+}

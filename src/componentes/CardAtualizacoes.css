@@ -1,0 +1,37 @@
+.imagem-atualizacao img {
+    width: 80%;
+}
+.text-atualizacao{
+    padding: 30px;
+    font-family: Poppins;
+}
+.text-atualizacao h2{
+    font-weight: bold;
+    color: #303669;
+}
+.text-atualizacao p{
+    color: gray;
+    margin-bottom: 30px;
+}
+.text-atualizacao h5{
+    color: #A4C4F3;
+    font-weight: bold;
+}
+.text-atualizacao h5:hover{
+    color: #FF3E81;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.back{
+    
+    padding: 7px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 2px solid #3A88EC ;
+    display: inline;
+    margin:20px auto;
+}
+.card-atualizacao{
+    
+    padding-top: 65px;
+}

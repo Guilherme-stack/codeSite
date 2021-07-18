@@ -1,0 +1,21 @@
+.atualizacoes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px;
+    margin-top: 50px;
+}
+.title-atualizacao{
+    font-family: Poppins;
+    font-weight: bold;
+    color: #303669;
+    font-size: 3rem;
+    margin-top: 100px;
+}
+@media(max-width:1000px){
+    .atualizacoes{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 50px;
+        margin-top: 50px;
+    }
+}

@@ -1,0 +1,10 @@
+.empresa{
+    width: 40%;
+}
+.card-cliente{
+    display: grid;
+     
+}
+.card-cliente h4{
+    color: #DADADA;
+}
